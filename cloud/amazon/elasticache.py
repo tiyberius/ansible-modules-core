@@ -482,7 +482,7 @@ def main():
             num_nodes={'required': False, 'default': None, 'type': 'int'},
             cache_port={'required': False, 'default': 11211, 'type': 'int'},
             cache_subnet_group={'required': False, 'default': None},
-            cache_security_groups={'required': False, 'default': [default],
+            cache_security_groups={'required': False, 'default': None,
                                    'type': 'list'},
             security_group_ids={'required': False, 'default': [],
                                    'type': 'list'},
